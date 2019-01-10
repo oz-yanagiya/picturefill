@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Document</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header"></header>
+			<main class="main">
+				<picture>
+					<!--[if IE 9]><video style="display: none;"><![endif]-->
+					<source srcset="images/lar.jpg" media="(min-width: 1000px)" />
+					<source srcset="images/mid.jpg" media="(min-width: 600px)" />
+					<!--[if IE 9]></video><![endif]-->
+					<img srcset="images/sma.jpg" alt="" />
+				</picture>
+			</main>
+			<footer class="footer"></footer>
+		</div>
+
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.3/picturefill.js"></script> -->
+
+		<script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.min.js"></script>
+		<script src="js/function.js"></script>
+	</body>
+</html>
